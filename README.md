@@ -1,5 +1,9 @@
 # Fundamentals-of-Data-Analysis_Assessment-2019
 
+Name: Martina Crkonova
+Instructions: The assesment concerns the Tips dataset and the Python packages seaborn and jupyter.
+
+
 ### Definitions:
 
 #### Standard deviation
