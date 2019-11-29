@@ -16,7 +16,37 @@ The analysis is divided into 3 sections:
 * Detailed analysis of selected variable
 
 
+
+### Used libraries and applications:
+* NumPy
+>a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. 
+* Seaborn
+>Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+* Jupyter notebook 
+>an open-source web application that allows to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
+
+* source: https://jupyter.org/
+https://seaborn.pydata.org/
+https://en.wikipedia.org/wiki/NumPy
+
+### Descriptive analysis of the dataset
+
+The dataset is converted to dataframe using Pandas.The quick revision if all data are loaded and check on the last couple of rows of the dataframe. The function describe() used to summarise and provide the calculations of basics statistical calculations. For visualisation of the dataframe the Pairplot and Histograms are used.
+
+The basic overview of each variable in the dataframe completed as per below:
+
+#### Variable "Sex"
+
+The pairplot used to visualise relationship between variables and distribution of data, distinguished by the Female and Mlae subcategory.Pivot tables used in order to be able to provide different angles on the data. 
+
 ### Definitions:
+
+#### Difference between mean and median
+
+*source: https://statistics.laerd.com/statistical-guides/measures-central-tendency-mean-mode-median.php
+
+The mean is equal to the sum of all the values in the data set divided by the number of values in the data set.<br/>
+The median is the middle score for a set of data that has been arranged in order of magnitude. The median is less affected by outliers and skewed data.
 
 #### Standard deviation
 
