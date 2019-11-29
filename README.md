@@ -8,7 +8,7 @@ __Date:__ November 2019
 
 Food servers’ tips in restaurants may be influenced by many factors, including the nature of the restaurant, size of the party, and table locations in the restaurant. Restaurant managers need to know which factors matter when they assign tables to food servers. For the sake of staff morale, they usually want to avoid either the substance or the appearance of unfair treatment of the servers, for whom tips (at least in restaurants in the United States) are a major component of pay. In one restaurant, a food server recorded the following data on all cus- tomers they served during an interval of two and a half months in early 1990. The restaurant, located in a suburban shopping mall, was part of a national chain and served a varied menu. In observance of local law, the restaurant offered to seat in a non-smoking section to patrons who requested it. Each record includes a day and time, and taken together, they show the server’s work schedule.
 
-* source: https://www.kaggle.com/ranjeetjain3/seaborn-tips-dataset
+* _source:_ https://www.kaggle.com/ranjeetjain3/seaborn-tips-dataset
 
 
 The analysis is divided into 3 sections:
@@ -26,7 +26,7 @@ The analysis is divided into 3 sections:
 * Jupyter notebook 
 >an open-source web application that allows to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
 
-* source:<br/>
+* _source:<br/>_
 >https://jupyter.org/ <br/>
 >https://seaborn.pydata.org/<br/>
 >https://en.wikipedia.org/wiki/NumPy<br/>
@@ -80,20 +80,20 @@ The selected variable sex is investigated from different perspectives-by variabl
 
 #### Difference between mean and median
 
-* source: https://statistics.laerd.com/statistical-guides/measures-central-tendency-mean-mode-median.php
+* _source:_ https://statistics.laerd.com/statistical-guides/measures-central-tendency-mean-mode-median.php
 
 The mean is equal to the sum of all the values in the data set divided by the number of values in the data set.<br/>
 The median is the middle score for a set of data that has been arranged in order of magnitude. The median is less affected by outliers and skewed data.
 
 #### Standard deviation
 
-* source: https://en.wikipedia.org/wiki/Standard_deviation
+* _source:_ https://en.wikipedia.org/wiki/Standard_deviation
 
 In statistics, the standard deviation is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean (also called the expected value) of the set, while a high standard deviation indicates that the values are spread out over a wider range
 
 #### Corelation and Covariance
 
-* source: https://towardsdatascience.com/let-us-understand-the-correlation-matrix-and-covariance-matrix-d42e6b643c22
+* _source:_ https://towardsdatascience.com/let-us-understand-the-correlation-matrix-and-covariance-matrix-d42e6b643c22
 
 “Covariance” indicates the direction of the linear relationship between variables. “Correlation” on the other hand measures both the strength and direction of the linear relationship between two variables. Correlation is a function of the covariance. What sets them apart is the fact that correlation values are standardized whereas, covariance values are not. 
 
@@ -108,26 +108,35 @@ Regression analysis is a statistical method that allows to examine the relations
 
 #### Boxplot
 
-* source:
+* _source:_
 >https://support.minitab.com/en-us/minitab-express/1/help-and-how-to/graphs/boxplot/interpret-the-results/key-results/
 >https://www.wellbeingatschool.org.nz/information-sheet/understanding-and-interpreting-box-plots
 >https://towardsdatascience.com/analyze-the-data-through-data-visualization-using-seaborn-255e1cd3948e
 
 Boxplots are a standardized way of displaying the distribution of data based on a five number summary (“minimum”, first quartile (Q1), median, third quartile (Q3), and “maximum”).<br/>
+<br/>
 >median (Q2/50th Percentile): the middle value of the dataset.<br/>
+<br/>
 >first quartile (Q1/25th Percentile): the middle number between the smallest number (not the “minimum”) and the median of the dataset.<br/>
+<br/>
 >third quartile (Q3/75th Percentile): the middle value between the median and the highest value (not the “maximum”) of the dataset.<br/>
+<br/>
 >interquartile range (IQR): 25th to the 75th percentile.<br/>
+<br/>
 >whiskers (shown in blue)<br/>
+<br/>
 >outliers (shown as green circles)<br/>
+<br/>
 >“maximum”: Q3 + 1.5*IQR<br/>
+<br/>
 >“minimum”: Q1 -1.5*IQR<br/>
+<br/>
 
 ![Boxplot](https://user-images.githubusercontent.com/47481671/69892800-4f076080-1301-11ea-8e8d-02a45a4f39ad.PNG)
 
 #### Histogram
 
-* source:
+* _source:_
 >https://www.ck12.org/book/CK-12-Probability-and-Statistics-Concepts/section/4.6/<br/>
 >https://datavizcatalogue.com/methods/histogram.html
 
