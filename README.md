@@ -8,7 +8,7 @@ __Date:__ November 2019
 
 Food servers’ tips in restaurants may be influenced by many factors, including the nature of the restaurant, size of the party, and table locations in the restaurant. Restaurant managers need to know which factors matter when they assign tables to food servers. For the sake of staff morale, they usually want to avoid either the substance or the appearance of unfair treatment of the servers, for whom tips (at least in restaurants in the United States) are a major component of pay. In one restaurant, a food server recorded the following data on all cus- tomers they served during an interval of two and a half months in early 1990. The restaurant, located in a suburban shopping mall, was part of a national chain and served a varied menu. In observance of local law, the restaurant offered to seat in a non-smoking section to patrons who requested it. Each record includes a day and time, and taken together, they show the server’s work schedule.
 
-https://www.kaggle.com/ranjeetjain3/seaborn-tips-dataset
+* source: https://www.kaggle.com/ranjeetjain3/seaborn-tips-dataset
 
 
 The analysis is divided into 3 sections:
@@ -26,7 +26,7 @@ The analysis is divided into 3 sections:
 * Jupyter notebook 
 >an open-source web application that allows to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
 
-*source:<br/>
+* source:<br/>
 >https://jupyter.org/ <br/>
 >https://seaborn.pydata.org/<br/>
 >https://en.wikipedia.org/wiki/NumPy<br/>
@@ -108,9 +108,10 @@ Regression analysis is a statistical method that allows to examine the relations
 
 #### Boxplot
 
-https://support.minitab.com/en-us/minitab-express/1/help-and-how-to/graphs/boxplot/interpret-the-results/key-results/
-https://www.wellbeingatschool.org.nz/information-sheet/understanding-and-interpreting-box-plots
-https://towardsdatascience.com/analyze-the-data-through-data-visualization-using-seaborn-255e1cd3948e
+* source:
+>https://support.minitab.com/en-us/minitab-express/1/help-and-how-to/graphs/boxplot/interpret-the-results/key-results/
+>https://www.wellbeingatschool.org.nz/information-sheet/understanding-and-interpreting-box-plots
+>https://towardsdatascience.com/analyze-the-data-through-data-visualization-using-seaborn-255e1cd3948e
 
 Boxplots are a standardized way of displaying the distribution of data based on a five number summary (“minimum”, first quartile (Q1), median, third quartile (Q3), and “maximum”).<br/>
 >median (Q2/50th Percentile): the middle value of the dataset.<br/>
@@ -121,6 +122,8 @@ Boxplots are a standardized way of displaying the distribution of data based on 
 >outliers (shown as green circles)<br/>
 >“maximum”: Q3 + 1.5*IQR<br/>
 >“minimum”: Q1 -1.5*IQR<br/>
+
+![Boxplot](https://user-images.githubusercontent.com/47481671/69892800-4f076080-1301-11ea-8e8d-02a45a4f39ad.PNG)
 
 #### Histogram
 
