@@ -1,7 +1,8 @@
 # Fundamentals-of-Data-Analysis_Assessment-2019
 
-Name: Martina Crkonova
-Instructions: The assesment concerns the Tips dataset and the Python packages seaborn and jupyter.
+__Name:__ Martina Crkonova<br/>
+__Instructions:__ The assesment concerns the Tips dataset and the Python packages seaborn and jupyter.
+__Date:__ November 2019
 
 ### About the dataset
 
@@ -25,9 +26,9 @@ The analysis is divided into 3 sections:
 * Jupyter notebook 
 >an open-source web application that allows to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
 
-* source: https://jupyter.org/
-https://seaborn.pydata.org/
-https://en.wikipedia.org/wiki/NumPy
+*source: https://jupyter.org/ <br/>
+https://seaborn.pydata.org/<br/>
+https://en.wikipedia.org/wiki/NumPy<br/>
 
 ### Descriptive analysis of the dataset
 
@@ -37,33 +38,42 @@ The basic overview of each variable in the dataframe completed as per below:
 
 #### Variable "Sex"
 
-The pairplot used to visualise relationship between variables and distribution of data, distinguished by the Female and Mlae subcategory.Pivot tables used in order to be able to provide different angles on the data. 
+The pairplot used to visualise relationship between variables and distribution of data, distinguished by the Female and Mlae subcategory.Pivot tables used in order to provide different angles on the data, split by differnet subcategories. 
+
+#### Variable "Day"
+
+The pairplot used to get first visuale understanding of the relationships of variables and distribution of data , split by days. The boxplot is used to get a good indication of how the values in the data are spread out. The pivot tables is providing the information on mean, minimum , maximum ,median and standard deviation displayed by days .
+
+#### Variable "Smoker"
+
+The same approach used, the pairplot used to ilustrate the relationship between variables size, tip and total bill split by if in the group was a smoker or not. Two sub-datasets prepared to illustrate the data for group with and without the smoker. Pivot table used to display different calculations. The Boxplot for each of the sub-group prepared.
+
 
 ### Definitions:
 
 #### Difference between mean and median
 
-*source: https://statistics.laerd.com/statistical-guides/measures-central-tendency-mean-mode-median.php
+* source: https://statistics.laerd.com/statistical-guides/measures-central-tendency-mean-mode-median.php
 
 The mean is equal to the sum of all the values in the data set divided by the number of values in the data set.<br/>
 The median is the middle score for a set of data that has been arranged in order of magnitude. The median is less affected by outliers and skewed data.
 
 #### Standard deviation
 
-*source: https://en.wikipedia.org/wiki/Standard_deviation
+* source: https://en.wikipedia.org/wiki/Standard_deviation
 
 In statistics, the standard deviation is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean (also called the expected value) of the set, while a high standard deviation indicates that the values are spread out over a wider range
 
 #### Corelation and Covariance
 
-*source: https://towardsdatascience.com/let-us-understand-the-correlation-matrix-and-covariance-matrix-d42e6b643c22
+* source: https://towardsdatascience.com/let-us-understand-the-correlation-matrix-and-covariance-matrix-d42e6b643c22
 
 “Covariance” indicates the direction of the linear relationship between variables. “Correlation” on the other hand measures both the strength and direction of the linear relationship between two variables. Correlation is a function of the covariance. What sets them apart is the fact that correlation values are standardized whereas, covariance values are not. 
 
 
 #### Regression analysis
 
-*source: https://en.wikipedia.org/wiki/Regression_analysis
+* source: https://en.wikipedia.org/wiki/Regression_analysis
 https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/regression-analysis/
 
 Regression analysis is a statistical method that allows to examine the relationship between two or more varaibles of interest. While there are many types of regression analysis, at their core they all examine the influence of one or more independent variables on a dependent variable. 
