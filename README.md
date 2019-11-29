@@ -1,7 +1,7 @@
 # Fundamentals-of-Data-Analysis_Assessment-2019
 
 __Name:__ Martina Crkonova<br/>
-__Instructions:__ The assesment concerns the Tips dataset and the Python packages seaborn and jupyter.
+__Instructions:__ The assesment concerns the Tips dataset and the Python packages seaborn and jupyter.<br/>
 __Date:__ November 2019
 
 ### About the dataset
@@ -26,11 +26,12 @@ The analysis is divided into 3 sections:
 * Jupyter notebook 
 >an open-source web application that allows to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
 
-*source: https://jupyter.org/ <br/>
-https://seaborn.pydata.org/<br/>
-https://en.wikipedia.org/wiki/NumPy<br/>
+*source:<br/>
+>https://jupyter.org/ <br/>
+>https://seaborn.pydata.org/<br/>
+>https://en.wikipedia.org/wiki/NumPy<br/>
 
-### Descriptive analysis of the dataset
+### 1, Descriptive analysis of the dataset
 
 The dataset is converted to dataframe using Pandas.The quick revision if all data are loaded and check on the last couple of rows of the dataframe. The function describe() used to summarise and provide the calculations of basics statistical calculations. For visualisation of the dataframe the Pairplot and Histograms are used.
 
@@ -47,6 +48,32 @@ The pairplot used to get first visuale understanding of the relationships of var
 #### Variable "Smoker"
 
 The same approach used, the pairplot used to ilustrate the relationship between variables size, tip and total bill split by if in the group was a smoker or not. Two sub-datasets prepared to illustrate the data for group with and without the smoker. Pivot table used to display different calculations. The Boxplot for each of the sub-group prepared.
+
+#### Variable "Time"
+
+The scatter plots used to display the relationships on the two variables , split by dinner and lunch in the specific day. 
+
+
+#### Variable "Size"
+
+The size variable is measuring the size of the group paying for the served food. Again, pivot tables are used to look on the data from different perspective.
+
+
+### 2, Regression analysis 
+
+Regression analysis is a statistical method that allows to examine the relationship between two or more variables of interest.In this analysis the relationship between total bill paid and tips is investigated. I assumed that the tip is dependent variable and total bill is independent (or predictor) variable.<br/>
+<br/>
+Scatter plot ilustrate the relationship between the paid bill and tips.<br/>
+<br/>
+The Pearson's correlation is used to evaluate how strong two variables are related.<br/>
+<br/>
+Linear regression analysis is used to to understand the association between one independent variable (total bill) and one continuous dependent (tip) variable. The best values for slope and y intercept.They are mathematically calculated  and also obtained from using the np.polyfit function.
+
+### 3, Detailed analysis of selected variable "Sex"
+
+The selected variable sex is investigated from different perspectives-by variable time, day, size and smoker. The dataframe is splitted into two datasets-Female and Males. Pivot tables and various plotes are used to ilustrate the analysis. In the last section is the linear regression analysis used to calculate the best fit model for Female and Males variables total bill and tips.
+
+
 
 
 ### Definitions:
@@ -73,8 +100,9 @@ In statistics, the standard deviation is a measure of the amount of variation or
 
 #### Regression analysis
 
-* source: https://en.wikipedia.org/wiki/Regression_analysis
-https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/regression-analysis/
+* source:
+>https://en.wikipedia.org/wiki/Regression_analysis<br/>
+>https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/regression-analysis/
 
 Regression analysis is a statistical method that allows to examine the relationship between two or more varaibles of interest. While there are many types of regression analysis, at their core they all examine the influence of one or more independent variables on a dependent variable. 
 
@@ -84,6 +112,22 @@ https://support.minitab.com/en-us/minitab-express/1/help-and-how-to/graphs/boxpl
 https://www.wellbeingatschool.org.nz/information-sheet/understanding-and-interpreting-box-plots
 https://towardsdatascience.com/analyze-the-data-through-data-visualization-using-seaborn-255e1cd3948e
 
+Boxplots are a standardized way of displaying the distribution of data based on a five number summary (“minimum”, first quartile (Q1), median, third quartile (Q3), and “maximum”).<br/>
+>median (Q2/50th Percentile): the middle value of the dataset.<br/>
+>first quartile (Q1/25th Percentile): the middle number between the smallest number (not the “minimum”) and the median of the dataset.<br/>
+>third quartile (Q3/75th Percentile): the middle value between the median and the highest value (not the “maximum”) of the dataset.<br/>
+>interquartile range (IQR): 25th to the 75th percentile.<br/>
+>whiskers (shown in blue)<br/>
+>outliers (shown as green circles)<br/>
+>“maximum”: Q3 + 1.5*IQR<br/>
+>“minimum”: Q1 -1.5*IQR<br/>
+
 #### Histogram
 
-https://www.ck12.org/book/CK-12-Probability-and-Statistics-Concepts/section/4.6/
+* source:
+>https://www.ck12.org/book/CK-12-Probability-and-Statistics-Concepts/section/4.6/<br/>
+>https://datavizcatalogue.com/methods/histogram.html
+
+A Histogram visualises the distribution of data over a continuous interval or certain time period. Each bar in a histogram represents the tabulated frequency at each interval/bin.
+
+Histograms help give an estimate as to where values are concentrated, what the extremes are and whether there are any gaps or unusual values. They are also useful for giving a rough view of the probability distribution.
